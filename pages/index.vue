@@ -65,6 +65,7 @@ export default {
 <style lang="scss">
 body {
   background-color: #f4f4f4;
+  margin: 0;
   * {
     box-sizing: border-box;
   }
