@@ -72,14 +72,20 @@ body {
 .content {
   width: 80%;
   display: flex;
-  flex: flex-wrap;
+  flex-wrap: wrap;
   margin: auto;
 }
 .content-one {
   background-color: #fff;
-  width: 25%;
+  width: calc(25% - 24px);
   border-radius: 8px;
   margin: 12px;
+  @media screen and (max-width: 1200px) {
+    width: calc(33% - 24px);
+  }
+  @media screen and (max-width: 800px) {
+    width: calc(50% - 24px);
+  }
 }
 .content-thumbnail {
   background-color: #fea63e;
