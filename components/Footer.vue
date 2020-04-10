@@ -41,9 +41,19 @@
 </template>
 
 <style lang="scss" scoped>
-// footer {
-//   padding: 2.4em;
-//   background-color: #7bb8ff;
-//   color: #fff;
-// }
+footer {
+  padding: 2.4em;
+  background-color: #7bb8ff;
+  color: #fff;
+  text-align: center;
+}
+.footer-menu-list {
+  list-style: none;
+
+  padding: 0;
+  li {
+    display: inline;
+    padding: 8px;
+  }
+}
 </style>
