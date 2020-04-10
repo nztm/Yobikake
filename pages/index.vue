@@ -17,7 +17,7 @@
           <div class="content-thumbnail">
             <img src="~/assets/emoji/1f932.svg" alt="" />
           </div>
-          <h3 class="content-title">こまめな手洗いを</h3>
+          <h3 class="content-title">こまめな手洗いをしよう！</h3>
           <shareButtons
             url="handhygiene"
             text="こまめな手洗いをしよう！🧼🤲✨
@@ -28,7 +28,7 @@
           <div class="content-thumbnail">
             <img src="~/assets/emoji/1f44f.svg" alt="" />
           </div>
-          <h3 class="content-title">医療に携わる人へ感謝を</h3>
+          <h3 class="content-title">医療に携わる人へ<br />感謝を伝えよう！</h3>
           <shareButtons
             url="thankyou"
             text="医療に携わる人へ感謝を伝えよう！👨‍⚕️👩‍🔬👏
@@ -39,7 +39,7 @@
           <div class="content-thumbnail">
             <img src="~/assets/emoji/1f637.svg" alt="" />
           </div>
-          <h3 class="content-title">距離をたもとう</h3>
+          <h3 class="content-title">人との距離をたもとう！</h3>
           <shareButtons
             url="keepdistance"
             text="💚🧍‍♂️人との距離をたもとう🧍‍♀️💜
