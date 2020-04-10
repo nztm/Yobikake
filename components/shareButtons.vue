@@ -53,9 +53,13 @@ export default {
 
   color: #fff;
   text-decoration: none;
+  transition: 0.3s all;
   i {
     margin-right: 4px;
     font-size: 20px;
+  }
+  &:hover {
+    padding-left: 40px;
   }
 }
 .share-link-twitter {
