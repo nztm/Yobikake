@@ -10,8 +10,8 @@
       "
       target="_blank"
       class="share-link share-link-twitter"
-      ><i class="fab fa-twitter"></i> Twitter でシェア</a
-    >
+      ><i class="fab fa-twitter"></i> ツイートする
+    </a>
     <a
       :href="
         'https://www.facebook.com/dialog/share?app_id=640540216785473&display=popup&href=https://yobikake.com/' +
@@ -19,8 +19,8 @@
       "
       target="_blank"
       class="share-link share-link-fb"
-      ><i class="fab fa-facebook"></i> Facebook でシェア</a
-    >
+      ><i class="fab fa-facebook"></i> シェアする
+    </a>
     <a
       :href="
         'https://social-plugins.line.me/lineit/share?url=https://yobikake.com/' +
@@ -28,8 +28,8 @@
       "
       target="_blank"
       class="share-link share-link-line"
-      ><i class="fab fa-line"></i> LINE でシェア</a
-    >
+      ><i class="fab fa-line"></i> 共有する
+    </a>
   </div>
 </template>
 
