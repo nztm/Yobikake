@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  layout: 'redirect',
   data() {
     return {
       meta: {
