@@ -13,6 +13,7 @@
 
   img {
     width: 30%;
+    min-width: 200px;
   }
 }
 </style>
