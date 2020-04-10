@@ -3,7 +3,7 @@
     <div>
       <div class="content">
         <div class="content-one">
-          <div class="content-thumbnail">
+          <div class="content-thumbnail orange">
             <img src="~/assets/emoji/1f3e0.svg" alt="" />
           </div>
           <h3 class="content-title">うちで過ごそう！</h3>
@@ -14,7 +14,7 @@
           ></shareButtons>
         </div>
         <div class="content-one">
-          <div class="content-thumbnail">
+          <div class="content-thumbnail green">
             <img src="~/assets/emoji/1f932.svg" alt="" />
           </div>
           <h3 class="content-title">こまめな手洗いをしよう！</h3>
@@ -25,7 +25,7 @@
           ></shareButtons>
         </div>
         <div class="content-one">
-          <div class="content-thumbnail">
+          <div class="content-thumbnail red">
             <img src="~/assets/emoji/1f44f.svg" alt="" />
           </div>
           <h3 class="content-title">医療に携わる人へ<br />感謝を伝えよう！</h3>
@@ -36,7 +36,7 @@
           ></shareButtons>
         </div>
         <div class="content-one">
-          <div class="content-thumbnail">
+          <div class="content-thumbnail blue">
             <img src="~/assets/emoji/1f637.svg" alt="" />
           </div>
           <h3 class="content-title">人との距離をたもとう！</h3>
@@ -88,7 +88,6 @@ body {
   }
 }
 .content-thumbnail {
-  background-color: #fea63e;
   padding: 24px;
   border-radius: 8px 8px 0 0;
   img {
@@ -100,5 +99,18 @@ body {
 .content-title {
   text-align: center;
   margin: 24px 0 4px;
+}
+
+.orange {
+  background-color: #ff8f57;
+}
+.red {
+  background-color: #f74f4f;
+}
+.blue {
+  background-color: #418fb5;
+}
+.green {
+  background-color: #41b784;
 }
 </style>
