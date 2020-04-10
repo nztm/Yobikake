@@ -43,6 +43,11 @@ export default {
         content: 'https://yobikake.com/ogp.png'
       },
       {
+        hid: 'fb:app_id',
+        property: 'fb:app_id',
+        content: '640540216785473'
+      },
+      {
         hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary_large_image'
