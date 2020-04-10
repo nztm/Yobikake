@@ -55,7 +55,6 @@
 import shareButtons from '~/components/shareButtons.vue'
 
 export default {
-  layout: 'main',
   components: {
     shareButtons
   }
