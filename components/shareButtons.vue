@@ -46,11 +46,15 @@ export default {
 .share-link {
   display: block;
   border-radius: 4px;
-  padding: 12px 24px;
-  margin-top: 8px;
+  padding: 10px 24px;
+  margin-top: 6px;
 
   color: #fff;
   text-decoration: none;
+  i {
+    margin-right: 4px;
+    font-size: 20px;
+  }
 }
 .share-link-twitter {
   background-color: #1da1f2;
