@@ -1,0 +1,64 @@
+<template>
+  <div class="share-buttons">
+    <a
+      :href="
+        'http://twitter.com/share?url=https://yobikake.com/' +
+          url +
+          '&text=' +
+          text +
+          '&related=yobikakecom,nztm_tw'
+      "
+      target="_blank"
+      class="share-link share-link-twitter"
+      ><i class="fab fa-twitter"></i> Twitter でシェア</a
+    >
+    <a
+      :href="
+        'https://www.facebook.com/dialog/share?app_id=640540216785473&display=popup&href=https://yobikake.com/' +
+          url
+      "
+      target="_blank"
+      class="share-link share-link-fb"
+      ><i class="fab fa-facebook"></i> Facebook でシェア</a
+    >
+    <a
+      :href="
+        'https://social-plugins.line.me/lineit/share?url=https://yobikake.com/' +
+          url
+      "
+      target="_blank"
+      class="share-link share-link-line"
+      ><i class="fab fa-line"></i> LINE でシェア</a
+    >
+  </div>
+</template>
+
+<script>
+export default {
+  props: ['url', 'text']
+}
+</script>
+
+<style lang="scss">
+.share-buttons {
+  padding: 12px;
+}
+.share-link {
+  display: block;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin-top: 8px;
+
+  color: #fff;
+  text-decoration: none;
+}
+.share-link-twitter {
+  background-color: #1da1f2;
+}
+.share-link-fb {
+  background-color: #3b5998;
+}
+.share-link-line {
+  background-color: #00bb00;
+}
+</style>

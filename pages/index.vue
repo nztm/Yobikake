@@ -6,30 +6,24 @@
           <img src="~/assets/emoji/1f3e0.svg" alt="" />
         </div>
         <h3 class="content-title">うちで過ごそう！</h3>
-        <div class="share-buttons">
-          <a
-            href="http://twitter.com/share?url=https://yobikake.com/stayhome&hashtags=Yobikake,うちで過ごそう"
-            target="_blank"
-            class="share-link share-link-twitter"
-            ><i class="fab fa-twitter"></i> Twitter でシェア</a
-          >
-          <a
-            href="https://www.facebook.com/dialog/share?app_id=????&display=popup&href=https://yobikake.com/stayhome&hashtag=#Yobikake"
-            target="_blank"
-            class="share-link share-link-fb"
-            ><i class="fab fa-facebook"></i> Facebook でシェア</a
-          >
-          <a
-            href="https://social-plugins.line.me/lineit/share?url=https://yobikake.com/stayhome"
-            target="_blank"
-            class="share-link share-link-line"
-            ><i class="fab fa-line"></i> LINE でシェア</a
-          >
-        </div>
+        <shareButtons
+          url="stayhome"
+          text="%E3%81%86%E3%81%A1%E3%81%A7%E9%81%8E%E3%81%94%E3%81%9D%E3%81%86%EF%BC%81%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB%F0%9F%8F%A0%0a%23%E3%81%86%E3%81%A1%E3%81%A7%E9%81%8E%E3%81%94%E3%81%9D%E3%81%86%20%23stayhome%20%23Yobikake%0A"
+        ></shareButtons>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+import shareButtons from '~/components/shareButtons.vue'
+
+export default {
+  components: {
+    shareButtons
+  }
+}
+</script>
 
 <style lang="scss">
 body {
@@ -54,26 +48,5 @@ body {
 }
 .content-title {
   margin: 12px;
-}
-.share-buttons {
-  padding: 12px;
-}
-.share-link {
-  display: block;
-  border-radius: 4px;
-  padding: 12px 24px;
-  margin-top: 8px;
-
-  color: #fff;
-  text-decoration: none;
-}
-.share-link-twitter {
-  background-color: #1da1f2;
-}
-.share-link-fb {
-  background-color: #3b5998;
-}
-.share-link-line {
-  background-color: #00bb00;
 }
 </style>
