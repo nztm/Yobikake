@@ -1,7 +1,6 @@
 <template>
   <div>
-    <section class="text-content">
-    </section>
+    <section class="text-content"></section>
   </div>
 </template>
 
