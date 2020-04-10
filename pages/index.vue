@@ -74,18 +74,18 @@ body {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 80px auto;
 }
 .content-one {
   background-color: #fff;
-  width: calc(25% - 24px);
+  width: calc(25% - 40px);
   border-radius: 8px;
-  margin: 12px;
+  margin: 20px;
   @media screen and (max-width: 1200px) {
-    width: calc(33% - 24px);
+    width: calc(33% - 40px);
   }
   @media screen and (max-width: 1000px) {
-    width: calc(50% - 24px);
+    width: calc(50% - 40px);
   }
   @media screen and (max-width: 500px) {
     margin: 24px 0;
@@ -103,6 +103,7 @@ body {
   }
 }
 .content-title {
-  margin: 12px;
+  text-align: center;
+  margin: 24px 0 4px;
 }
 </style>
