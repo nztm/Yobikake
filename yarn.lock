@@ -1313,6 +1313,13 @@
   resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-config/-/eslint-config-0.0.1.tgz#3aeed1cc6a2e01331c7e6b56bfa7152ce8bb2d90"
   integrity sha512-Scz5oYNtVwePF1ebXcWPrFxBpNF5wAkYh8L++6f2ZdLyUb1mCOwzE2+oVZxS25hGCYUyecFEshbqeSwkC+ktqA==
 
+"@nuxtjs/google-analytics@^2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.2.3.tgz#05496c5a33ce4dc4f9ef6838d432ed501a307778"
+  integrity sha512-dPwgsRNECtZqHdmnbJRFy3T4DDVakrpeN7vM1DwAIV1FXYlIBMKvdi8nt1v8TPU4IZdaoXrQodfeNMCooPo/7g==
+  dependencies:
+    vue-analytics "^5.22.1"
+
 "@nuxtjs/icon@^2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/icon/-/icon-2.6.0.tgz#65295ee059794f01e41a52c4141c06e898e798bc"
@@ -9359,6 +9366,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vue-analytics@^5.22.1:
+  version "5.22.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.22.1.tgz#9d6b32da56daee1b9dfb23a267b50349a03f710f"
+  integrity sha512-HPKQMN7gfcUqS5SxoO0VxqLRRSPkG1H1FqglsHccz6BatBatNtm/Vyy8brApktZxNCfnAkrSVDpxg3/FNDeOgQ==
 
 vue-client-only@^2.0.0:
   version "2.0.0"
