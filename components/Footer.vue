@@ -43,9 +43,13 @@
 <style lang="scss" scoped>
 footer {
   padding: 2.4em;
-  background-color: #7bb8ff;
+  background-color: #4183d1;
   color: #fff;
   text-align: center;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 .footer-menu-list {
   list-style: none;
