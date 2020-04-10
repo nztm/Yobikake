@@ -6,35 +6,63 @@
           <img src="~/assets/emoji/1f3e0.svg" alt="" />
         </div>
         <h3 class="content-title">うちで過ごそう！</h3>
-        <a
-          href="http://twitter.com/share?url=https://yobikake.com/stayhome&hashtags=Yobikake,うちで過ごそう"
-          target="_blank"
-          class="share-link share-link-twitter"
-          ><i class="fab fa-twitter"></i> Twitter でシェア</a
-        >
-        <a
-          href="https://www.facebook.com/dialog/share?app_id=????&display=popup&href=https://yobikake.com/stayhome&hashtag=#Yobikake"
-          target="_blank"
-          class="share-link share-link-fb"
-          ><i class="fab fa-facebook"></i> Facebook でシェア</a
-        >
-        <a
-          href="https://social-plugins.line.me/lineit/share?url=https://yobikake.com/stayhome"
-          target="_blank"
-          class="share-link share-link-line"
-          ><i class="fab fa-line"></i> LINE でシェア</a
-        >
+        <div class="share-buttons">
+          <a
+            href="http://twitter.com/share?url=https://yobikake.com/stayhome&hashtags=Yobikake,うちで過ごそう"
+            target="_blank"
+            class="share-link share-link-twitter"
+            ><i class="fab fa-twitter"></i> Twitter でシェア</a
+          >
+          <a
+            href="https://www.facebook.com/dialog/share?app_id=????&display=popup&href=https://yobikake.com/stayhome&hashtag=#Yobikake"
+            target="_blank"
+            class="share-link share-link-fb"
+            ><i class="fab fa-facebook"></i> Facebook でシェア</a
+          >
+          <a
+            href="https://social-plugins.line.me/lineit/share?url=https://yobikake.com/stayhome"
+            target="_blank"
+            class="share-link share-link-line"
+            ><i class="fab fa-line"></i> LINE でシェア</a
+          >
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <style lang="scss">
+body {
+  * {
+    box-sizing: border-box;
+  }
+}
+.content-one {
+  background-color: #fff;
+  width: 20%;
+  border-radius: 8px;
+}
+.content-thumbnail {
+  background-color: #fea63e;
+  padding: 24px;
+  border-radius: 8px 8px 0 0;
+  img {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+}
+.content-title {
+  margin: 12px;
+}
+.share-buttons {
+  padding: 12px;
+}
 .share-link {
   display: block;
   border-radius: 4px;
   padding: 12px 24px;
-  margin: 8px;
+  margin-top: 8px;
 
   color: #fff;
   text-decoration: none;
