@@ -63,13 +63,6 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  background-color: #f4f4f4;
-  margin: 0;
-  * {
-    box-sizing: border-box;
-  }
-}
 .content {
   display: flex;
   flex-wrap: wrap;
