@@ -1,11 +1,10 @@
 <template>
-  <html>
-    <meta http-equiv="refresh" content="0; URL=https://yobikake.com/" />
-  </html>
+  <div></div>
 </template>
 
 <script>
 export default {
+  layout: 'redirect',
   data() {
     return {
       meta: {
