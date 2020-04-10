@@ -14,7 +14,7 @@
           </li>
           <li>
             <a
-              href="https://github.com/nztm/yobikake.com"
+              href="https://github.com/nztm/Yobikake"
               target="_blank"
               rel="noopener"
               >GitHub</a
