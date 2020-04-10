@@ -20,7 +20,7 @@ export default {
 
 <style>
 body {
-  background-color: #f4f4f4;
+  background-color: #ecf1f7;
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
   color: #2a2a49;
