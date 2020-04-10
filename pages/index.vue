@@ -71,23 +71,18 @@ body {
   }
 }
 .content {
-  width: 80%;
   display: flex;
   flex-wrap: wrap;
+  padding: 0 24px;
   margin: 80px auto;
+  justify-content: center;
 }
 .content-one {
   background-color: #fff;
-  width: calc(25% - 40px);
   border-radius: 8px;
   margin: 20px;
-  @media screen and (max-width: 1200px) {
-    width: calc(33% - 40px);
-  }
-  @media screen and (max-width: 1000px) {
-    width: calc(50% - 40px);
-  }
-  @media screen and (max-width: 500px) {
+  width: 270px;
+  @media screen and (max-width: 670px) {
     margin: 24px 0;
     width: 100%;
   }
