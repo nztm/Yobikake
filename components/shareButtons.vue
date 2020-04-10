@@ -24,7 +24,9 @@
     <a
       :href="
         'https://social-plugins.line.me/lineit/share?url=https://yobikake.com/' +
-          url
+          url +
+          '&text=' +
+          text
       "
       target="_blank"
       class="share-link share-link-line"
