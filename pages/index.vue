@@ -83,8 +83,12 @@ body {
   @media screen and (max-width: 1200px) {
     width: calc(33% - 24px);
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     width: calc(50% - 24px);
+  }
+  @media screen and (max-width: 500px) {
+    margin: 24px 0;
+    width: 100%;
   }
 }
 .content-thumbnail {
