@@ -85,12 +85,12 @@ export default {
   }
 }
 .content-thumbnail {
-  padding: 24px;
+  padding: 36px;
   border-radius: 8px 8px 0 0;
   img {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 40%;
   }
 }
 .content-title {
