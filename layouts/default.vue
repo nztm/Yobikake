@@ -9,6 +9,7 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
+  color: #2a2a49;
   * {
     box-sizing: border-box;
   }
