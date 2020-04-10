@@ -25,17 +25,6 @@
           ></shareButtons>
         </div>
         <div class="content-one">
-          <div class="content-thumbnail red">
-            <img src="~/assets/emoji/1f44f.svg" alt="" />
-          </div>
-          <h3 class="content-title">医療に携わる人へ感謝を！</h3>
-          <shareButtons
-            url="thankyou"
-            text="医療に携わる人へ感謝を伝えよう！👨‍⚕️👩‍🔬👏
-            #感謝を伝えよう #thankyou #Yobikake"
-          ></shareButtons>
-        </div>
-        <div class="content-one">
           <div class="content-thumbnail blue">
             <img src="~/assets/emoji/1f637.svg" alt="" />
           </div>
@@ -44,6 +33,17 @@
             url="keepdistance"
             text="💚🧍‍♂️人との距離をたもとう🧍‍♀️💜
             #距離をたもとう #keepdistance #Yobikake"
+          ></shareButtons>
+        </div>
+        <div class="content-one">
+          <div class="content-thumbnail red">
+            <img src="~/assets/emoji/1f44f.svg" alt="" />
+          </div>
+          <h3 class="content-title">医療に携わる人へ感謝を！</h3>
+          <shareButtons
+            url="thankyou"
+            text="医療に携わる人へ感謝を伝えよう！👨‍⚕️👩‍🔬👏
+            #感謝を伝えよう #thankyou #Yobikake"
           ></shareButtons>
         </div>
       </div>
