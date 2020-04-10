@@ -66,15 +66,19 @@ export default {
 .content {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 24px;
+  padding: 0 40px;
   margin: 80px auto;
+  max-width: 880px;
   justify-content: center;
+  @media screen and (max-width: 670px) {
+    padding: 24px;
+  }
 }
 .content-one {
   background-color: #fff;
   border-radius: 8px;
   margin: 20px;
-  width: 270px;
+  width: 400px;
   @media screen and (max-width: 670px) {
     margin: 24px 0;
     width: 100%;
