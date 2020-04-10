@@ -28,7 +28,7 @@
           <div class="content-thumbnail red">
             <img src="~/assets/emoji/1f44f.svg" alt="" />
           </div>
-          <h3 class="content-title">医療に携わる人へ<br />感謝を伝えよう！</h3>
+          <h3 class="content-title">医療に携わる人へ感謝を！</h3>
           <shareButtons
             url="thankyou"
             text="医療に携わる人へ感謝を伝えよう！👨‍⚕️👩‍🔬👏
