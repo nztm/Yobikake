@@ -29,7 +29,7 @@
         nztm.biz＠gmail.com <br />
         ※＠を半角にしてください。
       </p>
-      <a nuxt-link="/">トップに戻る</a>
+      <nuxt-link to="/">トップページに戻る</nuxt-link>
     </section>
   </div>
 </template>
