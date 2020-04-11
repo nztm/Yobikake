@@ -35,7 +35,28 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      meta: {
+        type: 'article',
+        url: 'https://yobikake.com/about'
+      }
+    }
+  },
+  head() {
+    return {
+      meta: [
+        { hid: 'og:type', property: 'og:type', content: this.meta.type },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.meta.url
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style>
