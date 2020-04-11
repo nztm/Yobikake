@@ -83,7 +83,7 @@ export default {
   margin: 20px;
   width: 280px;
 
-  @media screen and (max-width: 670px) {
+  @media screen and (max-width: 720px) {
     margin: 24px 0;
     width: 100%;
   }
