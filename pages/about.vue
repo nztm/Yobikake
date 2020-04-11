@@ -24,6 +24,9 @@
           >Google プライバシポリシー</a
         >
       </p>
+      <h2>寄付について</h2>
+      <p>サイトの運営費、ドメイン、サーバー費などに使わせていただきます。</p>
+      <img src="~/assets/kyash_qr.png" />
       <h2>お問い合わせ先</h2>
       <p>
         nztm.biz＠gmail.com <br />
@@ -59,11 +62,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .text-content {
   width: 90%;
   max-width: 900px;
   margin: 24px auto;
   line-height: 2em;
+
+  img {
+    width: 20%;
+  }
 }
 </style>
