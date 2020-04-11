@@ -42,7 +42,8 @@
           <h3 class="content-title">医療に携わる人へ感謝を！</h3>
           <shareButtons
             url="thankyou"
-            text="医療に携わる人へ感謝を！👨‍⚕️👩‍🔬👏 #感謝を伝えよう #thankyou #Yobikake"
+            text="医療に携わる人へ感謝を！👨‍⚕️👩‍🔬👏
+#感謝を伝えよう #thankyou #Yobikake"
           ></shareButtons>
         </div>
       </div>
