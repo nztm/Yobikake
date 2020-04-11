@@ -9,8 +9,7 @@
           <h3 class="content-title">うちで過ごそう！</h3>
           <shareButtons
             url="stayhome"
-            text="うちで過ごそう！みんなのために🏠
-            #うちで過ごそう #stayhome #Yobikake"
+            text="うちで過ごそう！みんなのために🏠 #うちで過ごそう #stayhome #Yobikake"
           ></shareButtons>
         </div>
         <div class="content-one">
@@ -20,8 +19,7 @@
           <h3 class="content-title">こまめな手洗いをしよう！</h3>
           <shareButtons
             url="handhygiene"
-            text="こまめな手洗いをしよう！🧼🤲✨
-            #こまめな手洗いを #handhygiene #Yobikake"
+            text="こまめな手洗いをしよう！🧼🤲✨ #こまめな手洗いを #handhygiene #Yobikake"
           ></shareButtons>
         </div>
         <div class="content-one">
@@ -31,8 +29,7 @@
           <h3 class="content-title">人との距離をたもとう！</h3>
           <shareButtons
             url="keepdistance"
-            text="💚🧍‍♂️人との距離をたもとう🧍‍♀️💜
-            #距離をたもとう #keepdistance #Yobikake"
+            text="💚🧍‍♂️人との距離をたもとう🧍‍♀️💜 #距離をたもとう #keepdistance #Yobikake"
           ></shareButtons>
         </div>
         <div class="content-one">
@@ -42,8 +39,7 @@
           <h3 class="content-title">医療に携わる人へ感謝を！</h3>
           <shareButtons
             url="thankyou"
-            text="医療に携わる人へ感謝を！👨‍⚕️👩‍🔬👏
-            #感謝を伝えよう #thankyou #Yobikake"
+            text="医療に携わる人へ感謝を！👨‍⚕️👩‍🔬👏 #感謝を伝えよう #thankyou #Yobikake"
           ></shareButtons>
         </div>
       </div>
