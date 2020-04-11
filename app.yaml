@@ -1,6 +1,17 @@
 runtime: nodejs10
 env: standard
 
+instance_class: F1
+automatic_scaling:
+  target_cpu_utilization: 0.80
+  target_throughput_utilization: 0.80
+  min_idle_instances: automatic
+  max_idle_instances: 1
+  min_pending_latency: 3000ms
+  max_pending_latency: automatic
+  max_instances: 30
+  max_concurrent_requests: 80
+
 handlers:
   - url: /_nuxt
     static_dir: .nuxt/dist/client
