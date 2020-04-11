@@ -14,7 +14,7 @@
   padding: 30px;
 
   img {
-    width: 30%;
+    width: 20%;
     min-width: 200px;
   }
   h3 span {
