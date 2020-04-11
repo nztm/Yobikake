@@ -5,7 +5,7 @@
         'http://twitter.com/share?url=https://yobikake.com/' +
           url +
           '&text=' +
-          encodeURI(text) +
+          encodeURIComponent(text) +
           '&related=yobikakecom,nztm_tw'
       "
       target="_blank"
@@ -26,7 +26,7 @@
         'https://social-plugins.line.me/lineit/share?url=https://yobikake.com/' +
           url +
           '&text=' +
-          encodeURI(text)
+          encodeURIComponent(text)
       "
       target="_blank"
       class="share-link share-link-line"
