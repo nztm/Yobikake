@@ -1,7 +1,7 @@
 <template>
   <div class="logo">
     <img src="~/assets/logo.svg" alt="Logo" />
-    <h3>あなたの呼びかけからはじめよう</h3>
+    <h3><span>あなたの呼びかけから</span><span>はじめよう</span></h3>
   </div>
 </template>
 
@@ -9,11 +9,14 @@
 .logo {
   background-color: #fff;
   text-align: center;
-  padding: 60px;
+  padding: 30px;
 
   img {
     width: 30%;
     min-width: 200px;
+  }
+  h3 span {
+    display: inline-block;
   }
 }
 </style>
