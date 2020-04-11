@@ -5,7 +5,7 @@ instance_class: F1
 automatic_scaling:
   target_cpu_utilization: 0.80
   target_throughput_utilization: 0.80
-  min_idle_instances: automatic
+  min_idle_instances: 0
   max_idle_instances: 1
   min_pending_latency: 3000ms
   max_pending_latency: automatic
