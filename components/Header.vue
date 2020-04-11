@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <img src="~/assets/logo.svg" alt="Logo" />
+    <img href="/" src="~/assets/logo.svg" alt="Logo" />
     <h3><span>あなたの呼びかけから</span><span>はじめよう</span></h3>
   </div>
 </template>
