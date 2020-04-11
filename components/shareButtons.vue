@@ -6,6 +6,7 @@
           url +
           '&text=' +
           encodeURIComponent(text) +
+          '%0A' +
           '&related=yobikakecom,nztm_tw'
       "
       target="_blank"
@@ -26,7 +27,8 @@
         'https://social-plugins.line.me/lineit/share?url=https://yobikake.com/' +
           url +
           '&text=' +
-          encodeURIComponent(text)
+          encodeURIComponent(text) +
+          '%0A'
       "
       target="_blank"
       class="share-link share-link-line"
