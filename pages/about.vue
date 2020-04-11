@@ -88,6 +88,7 @@ export default {
   text-align: center;
   transition: 0.3s all;
   box-sizing: border-box;
+  box-shadow: 0 0 15px rgba(8, 28, 115, 0.2);
   &:hover {
     padding-left: 0;
   }
