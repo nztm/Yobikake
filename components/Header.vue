@@ -7,7 +7,7 @@
 
 <style lang="scss" scoped>
 .logo {
-  background-color: #fff;
+  background-color: #ffd04f;
   text-align: center;
   padding: 30px;
 
