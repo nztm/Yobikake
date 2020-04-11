@@ -73,7 +73,7 @@ export default {
     padding: 24px;
   }
   @media screen and (max-width: 1360px) {
-    width: 640px;
+    max-width: 640px;
   }
 }
 .content-one {
