@@ -75,7 +75,7 @@ export default {
   }
 }
 .goback {
-  background-color: #4183d1;
+  background-color: #418fb5;
   border-radius: 40px;
   display: block;
   padding: 12px 36px;

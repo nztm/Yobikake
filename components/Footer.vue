@@ -43,7 +43,7 @@
 <style lang="scss" scoped>
 footer {
   padding: 2.4em;
-  background-color: #4183d1;
+  background-color: #418fb5;
   color: #fff;
   text-align: center;
   a {
