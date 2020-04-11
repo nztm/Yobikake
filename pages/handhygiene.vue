@@ -10,6 +10,8 @@ export default {
   data() {
     return {
       meta: {
+        type: 'article',
+        url: 'https://yobikake.com/handhygiene',
         image: 'https://yobikake.com/handhygiene.png'
       }
     }
@@ -17,6 +19,12 @@ export default {
   head() {
     return {
       meta: [
+        { hid: 'og:type', property: 'og:type', content: this.meta.type },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.meta.url
+        },
         { hid: 'og:image', property: 'og:image', content: this.meta.image }
       ]
     }
