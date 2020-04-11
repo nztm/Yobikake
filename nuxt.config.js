@@ -90,7 +90,15 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', ['@nuxtjs/google-analytics', { id: '' || 'dummy' }]],
+  modules: [
+    '@nuxtjs/pwa',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-163397212-1' || 'dummy'
+      }
+    ]
+  ],
   buildModules: ['@nuxtjs/imagemin'],
   /*
    ** Build configuration
