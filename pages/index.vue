@@ -66,7 +66,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   padding: 0 40px;
-  margin: 80px auto;
+  margin: 4vw auto;
   max-width: 1280px;
   justify-content: center;
   @media screen and (max-width: 670px) {
