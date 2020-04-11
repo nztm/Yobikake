@@ -83,7 +83,7 @@ export default {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-  width: 80%;
+  width: 90%;
   max-width: 300px;
   text-align: center;
   transition: 0.3s all;
