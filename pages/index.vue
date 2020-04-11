@@ -72,6 +72,9 @@ export default {
   @media screen and (max-width: 670px) {
     padding: 24px;
   }
+  @media screen and (max-width: 1360px) {
+    width: 640px;
+  }
 }
 .content-one {
   background-color: #fff;
@@ -79,6 +82,7 @@ export default {
   box-shadow: 0 0 15px rgba(8, 28, 115, 0.2);
   margin: 20px;
   width: 280px;
+
   @media screen and (max-width: 670px) {
     margin: 24px 0;
     width: 100%;
