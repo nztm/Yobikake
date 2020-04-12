@@ -32,6 +32,7 @@
       <a href="https://github.com/nztm/Yobikake" class="and-you">
         <div class="contributor">
           <i class="fas fa-plus"></i>
+          <h3>CONTRIBUTE</h3>
         </div>
       </a>
     </section>
@@ -96,18 +97,20 @@ export default {
 }
 .and-you {
   text-decoration: none;
-  color: #7676a4;
+  color: #2a2a49;
   text-align: center;
   div {
-    height: 80px;
+    height: 120px;
+    padding: 24px;
   }
   i {
-    font-size: 40px;
+    font-size: 45px;
     transition: 0.3s all;
-    line-height: 80px;
+    line-height: 70px;
+    color: #7676a4;
   }
   &:hover i {
-    font-size: 45px;
+    font-size: 50px;
   }
 }
 
