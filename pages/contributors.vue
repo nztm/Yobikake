@@ -29,6 +29,11 @@
           </a>
         </div>
       </div>
+      <a href="https://github.com/nztm/Yobikake" class="and-you">
+        <div class="contributor">
+          <i class="fas fa-plus"></i>
+        </div>
+      </a>
     </section>
     <goBack />
   </div>
@@ -88,5 +93,21 @@ export default {
 }
 .sns-link {
   margin-bottom: 1em;
+}
+.and-you {
+  text-decoration: none;
+  color: #7676a4;
+  text-align: center;
+  div {
+    height: 80px;
+  }
+  i {
+    font-size: 40px;
+    transition: 0.3s all;
+    line-height: 80px;
+  }
+  &:hover i {
+    font-size: 45px;
+  }
 }
 </style>
