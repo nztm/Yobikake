@@ -7,10 +7,10 @@
         <h3>Tomohiro Nozaki</h3>
         <div class="sns-link">
           <a href="" target="_blank">
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github-square"></i>
           </a>
           <a href="" target="_blank">
-            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter-square"></i>
           </a>
         </div>
       </div>
@@ -19,10 +19,10 @@
         <h3>Yuki Mihashi</h3>
         <div class="sns-link">
           <a href="https://github.com/yuki384" target="_blank">
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github-square"></i>
           </a>
           <a href="https://twitter.com/YukiMihashi" target="_blank">
-            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter-square"></i>
           </a>
           <a href="http://yuki384.github.io/" target="_blank">
             <i class="fas fa-globe"></i>
