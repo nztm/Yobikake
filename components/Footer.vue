@@ -5,12 +5,7 @@
         <ul class="footer-menu-list">
           <li><nuxt-link to="/about">このサイトについて</nuxt-link></li>
           <li>
-            <a
-              href="https://github.com/nztm/yobikake.com/blob/master/CONTRIBUTORS.md"
-              target="_blank"
-              rel="noopener"
-              >Contributors</a
-            >
+            <nuxt-link to="/contributors">Contributors</nuxt-link>
           </li>
           <li>
             <a
