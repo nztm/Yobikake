@@ -68,7 +68,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .text-content {
   width: 90%;
   max-width: 900px;
