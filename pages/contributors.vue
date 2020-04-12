@@ -68,6 +68,10 @@ export default {
     font-size: 24px;
     margin-right: 12px;
     color: #2a2a49;
+    transition: 0.3s all;
+    &:hover {
+      color: #7676a4;
+    }
   }
   p {
     margin: 1em 0 0;
