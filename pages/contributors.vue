@@ -6,10 +6,10 @@
         <p>企画、運営、実装</p>
         <h3>Tomohiro Nozaki</h3>
         <div class="sns-link">
-          <a href="" target="_blank">
+          <a href="https://github.com/nztm" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-          <a href="" target="_blank">
+          <a href="https://twitter.com/nztm_tw" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
         </div>
