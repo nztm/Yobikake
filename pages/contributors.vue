@@ -110,4 +110,15 @@ export default {
     font-size: 45px;
   }
 }
+
+.text-content {
+  width: 90%;
+  max-width: 900px;
+  margin: 24px auto;
+  line-height: 2em;
+
+  img {
+    width: 20%;
+  }
+}
 </style>
