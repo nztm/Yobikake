@@ -40,7 +40,7 @@ import goBack from '~/components/goBack.vue'
 export default {
   components: {
     goBack
-  }
+  },
   data() {
     return {
       meta: {
