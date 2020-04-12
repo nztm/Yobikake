@@ -9,16 +9,20 @@
 
 <style lang="scss" scoped>
 .logo {
-  background-color: #ffd04f;
+  background-color: #fff;
+  border-bottom: solid 8px #ffd04f;
   text-align: center;
-  padding: 30px;
+  padding: 36px;
 
   img {
     width: 20%;
     min-width: 200px;
   }
-  h3 span {
-    display: inline-block;
+  h3 {
+    margin: 8px 0 0;
+    span {
+      display: inline-block;
+    }
   }
 }
 </style>
