@@ -24,5 +24,4 @@ $ yarn install
 
 # 開発環境を立ち上げる
 $ yarn run dev
-
-[Nuxt.js docs](https://nuxtjs.org).
+```
