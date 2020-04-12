@@ -31,7 +31,7 @@
         </ul>
       </nav>
       <p class="copyright">
-        &copy; 2020 Yobikake |
+        &copy; {{ year }} Yobikake |
         <a href="https://twemoji.twitter.com/" target="_blank" rel="noopener"
           >Twemoji CC-BY 4.0</a
         >
@@ -39,6 +39,16 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    year() {
+      return new Date().getFullYear()
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 footer {
