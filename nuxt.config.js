@@ -97,9 +97,20 @@ export default {
       {
         id: 'UA-163397212-1' || 'dummy'
       }
-    ]
+    ],
+    '@nuxtjs/sitemap'
   ],
+
   buildModules: ['@nuxtjs/imagemin'],
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://yobikake.com',
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
+    exclude: [''],
+    routes: ['/about', '/contributors']
+  },
   /*
    ** Build configuration
    */
