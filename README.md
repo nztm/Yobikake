@@ -1,22 +1,28 @@
-# yobikake.com
+# Yobikake | あなたの呼びかけからはじめよう
 
-> My astonishing Nuxt.js project
+「Yobikake」は、SNSを使ってワンクリックで誰もが呼びかけを発信できるサービスです。
 
-## Build Setup
+
+## プロジェクト環境 
+[リリース環境]
+
+https://yobikake.com/
+
+[開発環境]
+
+https://dev.yobikake.com/
+
+## プロジェクトへの参加方法
+現在準備中です。。🚧
+
+
+## 実行方法
 
 ``` bash
-# install dependencies
+# 依存関係をインストールする
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# 開発環境を立ち上げる
 $ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
-```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
