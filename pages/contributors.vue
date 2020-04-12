@@ -30,11 +30,17 @@
         </div>
       </div>
     </section>
+    <goBack />
   </div>
 </template>
 
 <script>
+import goBack from '~/components/goBack.vue'
+
 export default {
+  components: {
+    goBack
+  }
   data() {
     return {
       meta: {
