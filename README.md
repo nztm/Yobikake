@@ -25,4 +25,4 @@ $ yarn install
 # 開発環境を立ち上げる
 $ yarn run dev
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+[Nuxt.js docs](https://nuxtjs.org).
