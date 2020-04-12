@@ -42,7 +42,7 @@
 
 <style lang="scss" scoped>
 footer {
-  padding: 2.4em;
+  padding: 20px;
   background-color: #418fb5;
   color: #fff;
   text-align: center;
