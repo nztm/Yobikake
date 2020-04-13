@@ -2,6 +2,8 @@
 
 「Yobikake」は、SNSを使ってワンクリックで誰もが呼びかけを発信できるサービスです。
 
+![Image](https://i.imgur.com/JpQ98yz.png)
+
 
 ## プロジェクト環境 
 [リリース環境]
