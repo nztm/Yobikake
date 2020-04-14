@@ -37,7 +37,7 @@
     <span
       target="_blank"
       class="share-link share-link-copy copy"
-      @click="copy(text + '\n https://yobikake.com/' + url)"
+      @click="copy('https://yobikake.com/' + url)"
       ><i class="far fa-copy"></i>{{ copyLabel }}
     </span>
   </div>
