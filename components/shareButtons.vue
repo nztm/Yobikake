@@ -35,7 +35,7 @@
 export default {
   props: ['url', 'text'],
   data: () => ({
-    copyLabel: 'URLをコピーする'
+    copyLabel: 'コピーする'
   }),
   methods: {
     copy(msg) {
@@ -44,7 +44,7 @@ export default {
       this.copyLabel = 'コピーしました！'
       setTimeout(
         function() {
-          this.copyLabel = 'URLをコピーする'
+          this.copyLabel = 'コピーする'
         }.bind(this),
         2000
       )
