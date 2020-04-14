@@ -22,24 +22,34 @@
       class="share-link share-link-fb"
       ><i class="fab fa-facebook"></i> シェアする
     </a>
-    <a
-      :href="
-        'https://social-plugins.line.me/lineit/share?url=https://yobikake.com/' +
-          url +
-          '&text=' +
-          encodeURIComponent(text) +
-          '%0A'
-      "
+    <span
       target="_blank"
-      class="share-link share-link-line"
-      ><i class="fab fa-line"></i> 共有する
-    </a>
+      class="share-link share-link-copy copy"
+      @click="copy('https://yobikake.com/' + url)"
+      ><i class="far fa-copy"></i>{{ copyLabel }}
+    </span>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['url', 'text']
+  props: ['url', 'text'],
+  data: () => ({
+    copyLabel: 'コピーする'
+  }),
+  methods: {
+    copy(msg) {
+      const copyText = msg
+      navigator.clipboard.writeText(copyText)
+      this.copyLabel = 'コピーしました！'
+      setTimeout(
+        function() {
+          this.copyLabel = 'コピーする'
+        }.bind(this),
+        2000
+      )
+    }
+  }
 }
 </script>
 
@@ -70,7 +80,8 @@ export default {
 .share-link-fb {
   background-color: #3b5998;
 }
-.share-link-line {
-  background-color: #00bb00;
+.share-link-copy {
+  background-color: #41b784;
+  cursor: pointer;
 }
 </style>
