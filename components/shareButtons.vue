@@ -34,12 +34,37 @@
       class="share-link share-link-line"
       ><i class="fab fa-line"></i> 共有する
     </a>
+    <span
+      target="_blank"
+      class="share-link share-link-copy copy"
+      @click="copy(text + '\n https://yobikake.com/' + url)"
+      ><i class="far fa-copy"></i> URLと文章をコピー
+    </span>
+    <div id="copiedDialog" style="display: none;">
+      コピーしました！
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['url', 'text']
+  props: ['url', 'text'],
+  methods: {
+    copy(msg) {
+      const copyText = msg
+      navigator.clipboard.writeText(copyText)
+      const dialog = document.getElementById('copiedDialog')
+      dialog.style.display = 'block'
+      setTimeout(function() {
+        document.getElementById('copiedDialog').classList.add('huwaClass')
+        setTimeout(function() {
+          document.getElementById('copiedDialog').style.display = 'none'
+          document.getElementById('copiedDialog').style.opacity = 1
+          document.getElementById('copiedDialog').classList.remove('huwaClass')
+        }, 400)
+      }, 2000)
+    }
+  }
 }
 </script>
 
@@ -72,5 +97,34 @@ export default {
 }
 .share-link-line {
   background-color: #00bb00;
+}
+.share-link-copy {
+  background-color: #777777;
+  cursor: pointer;
+}
+#copiedDialog {
+  background-color: rgba(80, 80, 80, 0.8);
+  text-align: center;
+  padding: 6px;
+  color: #fff;
+  border-radius: 4px;
+  margin: auto;
+  top: 12vh;
+  right: 24px;
+  left: 24px;
+  position: fixed;
+}
+.huwaClass {
+  animation: huwa 0.4s ease alternate;
+}
+@keyframes huwa {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    display: block;
+  }
 }
 </style>
