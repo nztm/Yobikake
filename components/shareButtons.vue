@@ -81,7 +81,7 @@ export default {
   background-color: #3b5998;
 }
 .share-link-copy {
-  background-color: #777777;
+  background-color: #41b784;
   cursor: pointer;
 }
 </style>
