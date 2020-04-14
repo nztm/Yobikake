@@ -11,7 +11,7 @@
       "
       target="_blank"
       class="share-link share-link-twitter"
-      ><i class="fab fa-twitter"></i> ツイートする
+      ><i class="fab fa-twitter fa-fw"></i>ツイートする
     </a>
     <a
       :href="
@@ -20,13 +20,13 @@
       "
       target="_blank"
       class="share-link share-link-fb"
-      ><i class="fab fa-facebook"></i> シェアする
+      ><i class="fab fa-facebook fa-fw"></i>シェアする
     </a>
     <span
       target="_blank"
       class="share-link share-link-copy copy"
       @click="copy('https://yobikake.com/' + url)"
-      ><i class="far fa-copy"></i>{{ copyLabel }}
+      ><i class="far fa-copy fa-fw"></i>{{ copyLabel }}
     </span>
   </div>
 </template>
