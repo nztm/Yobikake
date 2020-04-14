@@ -22,18 +22,6 @@
       class="share-link share-link-fb"
       ><i class="fab fa-facebook"></i> シェアする
     </a>
-    <a
-      :href="
-        'https://social-plugins.line.me/lineit/share?url=https://yobikake.com/' +
-          url +
-          '&text=' +
-          encodeURIComponent(text) +
-          '%0A'
-      "
-      target="_blank"
-      class="share-link share-link-line"
-      ><i class="fab fa-line"></i> 共有する
-    </a>
     <span
       target="_blank"
       class="share-link share-link-copy copy"
@@ -91,9 +79,6 @@ export default {
 }
 .share-link-fb {
   background-color: #3b5998;
-}
-.share-link-line {
-  background-color: #00bb00;
 }
 .share-link-copy {
   background-color: #777777;
