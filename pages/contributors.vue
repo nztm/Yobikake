@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="contributor">
-        <p>デザイン</p>
+        <p>デザイン、実装</p>
         <h3>Yuki Mihashi</h3>
         <div class="sns-link">
           <a href="https://github.com/yuki384" target="_blank">
