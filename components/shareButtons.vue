@@ -23,8 +23,8 @@
       ><i class="fab fa-facebook fa-fw"></i>シェアする
     </a>
     <span
-      class="share-link share-link-copy copy"
       @click="copy('https://yobikake.com/' + url)"
+      class="share-link share-link-copy copy"
       ><i class="far fa-copy fa-fw"></i>{{ copyLabel }}
     </span>
   </div>
