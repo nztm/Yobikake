@@ -47,6 +47,7 @@ export default {
   },
   data() {
     return {
+      title: 'このサイトについて | Yobikake',
       meta: {
         type: 'article',
         url: 'https://yobikake.com/about'
@@ -55,6 +56,7 @@ export default {
   },
   head() {
     return {
+      title: this.title,
       meta: [
         { hid: 'og:type', property: 'og:type', content: this.meta.type },
         {

@@ -49,6 +49,7 @@ export default {
   },
   data() {
     return {
+      title: 'Contributors | Yobikake',
       meta: {
         type: 'article',
         url: 'https://yobikake.com/contributors'
@@ -57,6 +58,7 @@ export default {
   },
   head() {
     return {
+      title: this.title,
       meta: [
         { hid: 'og:type', property: 'og:type', content: this.meta.type },
         {
