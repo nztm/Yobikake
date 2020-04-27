@@ -7,7 +7,8 @@
           '&text=' +
           encodeURIComponent(text) +
           '%0A' +
-          '&related=yobikakecom,nztm_tw'
+          '&related=yobikakecom,nztm_tw' +
+          '&openexternalbrowser=1'
       "
       target="_blank"
       class="share-link share-link-twitter"
@@ -16,7 +17,8 @@
     <a
       :href="
         'https://www.facebook.com/dialog/share?app_id=640540216785473&display=popup&href=https://yobikake.com/' +
-          url
+          url +
+          '&openexternalbrowser=1'
       "
       target="_blank"
       class="share-link share-link-fb"
