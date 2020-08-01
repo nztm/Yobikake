@@ -4,15 +4,7 @@
 
 ![Image](https://i.imgur.com/JpQ98yz.png)
 
-
-## プロジェクト環境 
-[リリース環境]
-
 https://yobikake.com/
-
-[開発環境]
-
-https://dev.yobikake.com/
 
 ## 実行方法
 
