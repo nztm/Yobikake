@@ -1,15 +1,15 @@
-runtime: nodejs10
+runtime: nodejs12
 env: standard
 
 instance_class: F1
 automatic_scaling:
-  target_cpu_utilization: 0.80
-  target_throughput_utilization: 0.80
+  target_cpu_utilization: 0.95
+  target_throughput_utilization: 0.95
   min_idle_instances: 0
   max_idle_instances: 1
   min_pending_latency: 3000ms
   max_pending_latency: automatic
-  max_instances: 30
+  max_instances: 5
   max_concurrent_requests: 80
 
 handlers:
@@ -17,9 +17,9 @@ handlers:
     static_dir: .nuxt/dist/client
     secure: always
 
-  - url: /(.*\.(gif|png|jpg|ico|txt))$
+  - url: /(.*\.(gif|png|jpg|svg|ico|txt))$
     static_files: static/\1
-    upload: static/.*\.(gif|png|jpg|ico|txt)$
+    upload: static/.*\.(gif|png|jpg|svg|ico|txt)$
     secure: always
 
   - url: /.*
