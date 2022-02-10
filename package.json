@@ -17,7 +17,7 @@
     "@nuxtjs/pwa": "^2.6.0",
     "@nuxtjs/sitemap": "^2.2.0",
     "cross-env": "^5.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.4.0",
     "sass-loader": "^8.0.2"
   },
